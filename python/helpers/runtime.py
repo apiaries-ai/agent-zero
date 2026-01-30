@@ -44,12 +44,10 @@ def initialize():
 
 
 def get_arg(name: str):
-    global args
     return args.get(name, None)
 
 
 def has_arg(name: str):
-    global args
     return name in args
 
 
